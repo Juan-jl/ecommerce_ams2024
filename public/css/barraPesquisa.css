@@ -1,0 +1,29 @@
+.divBarraPesquisa
+{
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: 20px;
+}
+.barraPesquisa
+{
+  width: 60%;
+  height: 36px;
+  border-top-left-radius: 2px;
+  border: none;
+  border-bottom-left-radius: 3px;
+}
+.btnBarraPesquisa
+{
+	background-color: #00AA4E;
+	border: none;
+	height: 36px;
+	width: 55px;
+	color: #ffffff;
+}
+.btnBarraPesquisa:hover
+{
+    background-color: #00612c;
+	color: #ffffff;
+}

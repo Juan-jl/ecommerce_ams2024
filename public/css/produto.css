@@ -1,0 +1,78 @@
+.barraPesquisa
+{
+	background-color: #D3D3D3;
+}
+.horizontalImgAndInfo
+{
+	//background-color: red;
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: flex;
+	height: 370px;
+}
+.divImgProd
+{
+	background-color: #e6e6e6;
+	margin-left: 5px;
+	height: 340px;
+	width: 30%;
+	margin-top: 5px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.imgProd
+{
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+}
+.verticalInfos
+{
+	//background-color: blue;
+	width: 100%;
+	margin-left: 20px;
+	margin-top: 5px;
+	height: 95%;
+	display: flex;
+	flex-direction: column;
+}
+.prodNome
+{
+	font-size: 30px;
+	width: 60%;
+}
+.prodPreco
+{
+	font-size: 23px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.prodDescricao
+{
+	font-size: 23px;
+	width: 70%;
+	margin-top: 20px;
+}
+.btnComprar, .btnAddCart
+{
+	background-color: #00BDBD;
+	border: none;
+	height: 50px;
+	margin-left: 10px;
+	font-size: 21px;
+	font-weight: bold;
+}
+.btnComprar:hover, .btnAddCart:hover
+{
+	background-color: #009c9c;
+}
+.footer 
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}

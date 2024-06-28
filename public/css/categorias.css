@@ -1,0 +1,32 @@
+.categorias
+{
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: 20px;
+}
+.categoria
+{
+	width: 100px;
+	height: 30px;
+	background-color: #00BDBD;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.lblCategoria
+{
+	margin-top: 4px;
+	cursor: pointer;
+}
+.categoria:hover
+{
+	background-color: #009191;
+	transform: translateY(-10px);
+}
