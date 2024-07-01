@@ -1,0 +1,78 @@
+.divHorizontal
+{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #000000;
+}
+.divFrmLogin
+{
+	background-color: #008686;
+	width: 35%;
+	margin-top: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+.titulo, .tituloEcommerce
+{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 20px;
+	order: 1;
+}
+.tituloEcommerce
+{
+	order: 2;
+	cursor: pointer;
+}
+.lblLogin
+{
+	float: left;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 10px;
+}
+.divBtns
+{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+}
+.inputLogin
+{
+	width: 90%;
+	margin-top: 10px;
+	height: 40px;
+	border: none;
+	background-color: #ffffff;
+	font-size: 21px;
+}
+.btnCriarConta, .btnEntrar
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border: none;
+	width: 120px;
+	height: 40px;
+	font-size: 20px;
+	background-color: #00AA4E;
+	color: #ffffff;
+	font-weight: bold;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+	order: 1;
+}
+.btnEntrar
+{
+	order: 2;
+}
+.btnCriarConta:hover, .btnEntrar:hover
+{
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+	background-color: #00bf58;
+}
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

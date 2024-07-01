@@ -29,8 +29,10 @@
     height: 42px;
     margin-right: 10px;
     font-size: 20px;
+	transition: box-shadow 0.3s ease;
 }
 .btnHeader:hover
 {
-    background-color: #00612c;
+    background-color: #00bf58;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
